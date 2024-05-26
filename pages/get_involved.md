@@ -7,7 +7,7 @@ subtitle:
 
 ## Contact us
 
-**Email:** [Governing Board](mailto:hcp4715@gmail.com)
+**Email:** [Governing Board](mailto:example@email.com)
 
 ## Join working groups
 
