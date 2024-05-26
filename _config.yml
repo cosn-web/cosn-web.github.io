@@ -10,7 +10,7 @@
 ############################
 
 # Name of website
-title: Chinese Open Science Network
+title: COSN
 
 # Your name to show in the footer
 author: Chinese Open Science Network
@@ -20,11 +20,19 @@ author: Chinese Open Science Network
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
+  About: "pages/about"
+  Projects:
+    - Events: "pages/projects/open_events"
+    - Journal Club: "pages/projects/journal_club"
+    - Open Talks: "pages/projects/open_talks"
+    - Open Tutorials: "pages/projects/open_tutorials"
+    - Open Transfer: "pages/projects/open_transfer"
+    - Open Minds: "pages/projects/open_minds"
+    - Open Plus: "pages/projects/open_plus"
   Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+    - General Resources: "pages/resources/general_resources"
+    - Calendar: "pages/resources/calendar"
+  Get involved: "pages/get_involved"
 
 ################
 # --- Logo --- #
@@ -32,7 +40,7 @@ navbar-links:
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/avatar-icon.png"
+avatar: "/assets/img/cosnlogo.jpeg"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
@@ -50,14 +58,12 @@ round-avatar: true
 # You can change the order that they show up on the page by changing the order here.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "someone@example.com"
-  rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
-  patreon: DeanAttali
-  youtube: "@daattali"
-  whatsapp: 15551212
+  email: "hcp4715@gmail.com"
+  # github: daattali
+  twitter: ChineseOpenSci
+  # patreon: DeanAttali
+  # youtube: "@daattali"
+  # whatsapp: 15551212
 #  medium: yourname
 #  reddit: yourname
 #  linkedin: daattali
@@ -76,7 +82,7 @@ social-network-links:
 #  bluesky: yourname
 #  ORCID: your ORCID ID
 #  google-scholar: your google scholar
-#  discord: "invite_code" or "users/userid" or "invite/invite_code" 
+#  discord: "invite_code" or "users/userid" or "invite/invite_code"
 #  kaggle: yourname
 #  hackerrank: yourname
 #  gitlab: yourname
@@ -94,13 +100,13 @@ rss-description: This website is a virtual proof that I'm awesome
 # Select which social network share links to show in posts
 share-links-active:
   twitter: true
-  facebook: true
-  linkedin: true
-  vk: false
+  # facebook: true
+  # linkedin: true
+  # vk: false
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
+url-pretty: "cosn-web.github.io"
 
 # Add the website title to the title of every page
 title-on-all-pages: true
@@ -214,23 +220,23 @@ footer-hover-col: "#0085A1"
 #  label: blog-comments # Label that will be assigned to GitHub Issues created by Utterances
 
 # To use Staticman comments, uncomment the following section. You may leave the reCaptcha
-# section commented if you aren't using reCaptcha for spam protection. 
-# Using Staticman requires advanced knowledge, please consult 
-# https://github.com/eduardoboucas/staticman/ and https://staticman.net/ for further 
-# instructions. For any support with staticman please direct questions to staticman and 
+# section commented if you aren't using reCaptcha for spam protection.
+# Using Staticman requires advanced knowledge, please consult
+# https://github.com/eduardoboucas/staticman/ and https://staticman.net/ for further
+# instructions. For any support with staticman please direct questions to staticman and
 # not to BeautifulJekyll.
 #staticman:
 #  repository : # GitHub username/repository eg. "daattali/beautiful-jekyll"
 #  branch     : master # If you're not using `master` branch, then you also need to update the `branch` parameter in `staticman.yml`
 #  endpoint   : # URL of your deployment, with a trailing slash eg. "https://<your-api>/v3/entry/github/"
-#  reCaptcha:   # (optional, set these parameters in `staticman.yml` as well) 
+#  reCaptcha:   # (optional, set these parameters in `staticman.yml` as well)
 #    siteKey  : # You need to apply for a site key on Google
 #    secret   : # Encrypt your password by going to https://<your-own-api>/v3/encrypt/<your-site-secret>
 
 # To use giscus comments:
-# (0) Uncomment the following giscus section, (1) Enable Discussions in your GitHub repository, 
+# (0) Uncomment the following giscus section, (1) Enable Discussions in your GitHub repository,
 # (2) Install the giscus app in your repository (details at https://giscus.app),
-# (3) Fill in *all* the parameters below 
+# (3) Fill in *all* the parameters below
 # See more details about giscus and each of the following parameters at https://giscus.app
 #giscus:
 #  hostname: giscus.app # Replace with your giscus instance's hostname if self-hosting
@@ -300,4 +306,3 @@ plugins:
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
-
