@@ -5,3 +5,40 @@
     -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
+
+.circle-logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #3DA5D9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, sans-serif;;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.2;
+}
+
+h1:not(.page-heading h1) {
+    color: #2364aa;
+}
+
+h2:not(.page-heading h2) {
+    color: #73bfb8;
+}
+
+/*h3:not(.page-heading h3) {
+    color: #fec601;
+}
+
+h4:not(.page-heading h4) {
+    color: #ea7317;
+}
+
+h5:not(.page-heading h5) {
+    color: #f7c59f;
+}
+*/

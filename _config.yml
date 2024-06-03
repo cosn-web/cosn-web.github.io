@@ -20,6 +20,7 @@ author: Chinese Open Science Network
 ###############################################
 
 navbar-links:
+  Index: "pages/index"
   About: "pages/about"
   Projects:
     - Events: "pages/projects/open_events"
@@ -153,6 +154,7 @@ footer-col: "#3851a3"
 footer-text-col: "#FFFFFF"
 footer-link-col: "#FFFFFF"
 footer-hover-col: "#FFFFFF"
+bs-heading-color: ''
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
