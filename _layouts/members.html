@@ -1,0 +1,59 @@
+---
+layout: base
+---
+
+{% include header.html type="page" %}
+
+<main class="{% if page.full-width %} container-fluid {% else %} container-md {% endif %}">
+  <div class="row">
+    <div class="{% if page.full-width %} col {% else %} col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 {% endif %}">
+      {% if page.before-content %}
+        <div class="before-content">
+          {% for file in page.before-content %}
+            {% include {{ file }} %}
+          {% endfor %}
+        </div>
+      {% endif %}
+
+      {{ content }}
+
+      <hr>
+      <h4 class="text-center" id='Members'>Executive Committees (Ordered in surnames)</h4>
+      <br>
+      <div class="row row-cols-1 row-cols-md-3 mx-5">
+
+      {%- for member in page.members -%}
+        <div class="col">
+          <div class="card mb-4 mx-2" style="-webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);">
+            <a href="{{member[1].url}}" class="text-decoration-none text-reset">
+            <!--Card image-->
+            <div class="view overlay text-center">
+              <img class="rounded-circle mt-3 avatar" src="../../assets/img/{{member[1].name}}.jpg" alt="" style="width: 150px; height: 150px;">
+            </div>
+            <!--Card content-->
+            <div class="card-body text-center">
+              <!--Title-->
+              <h4 class="card-title"><strong>{{member[1].name}}</strong></h4>
+              <hr>
+              <!-- Subtitle -->
+              <p class="card-text text-primary "><strong style="color: #3851a3">{{member[1].position}}</strong></p>
+              <p class="card-text mx-auto">{{member[1].intro}}</p>
+            </div>
+            </a>
+          </div>
+        </div>
+        
+      {% endfor %}
+
+      {% if page.after-content %}
+        <div class="after-content">
+          {% for file in page.after-content %}
+            {% include {{ file }} %}
+          {% endfor %}
+        </div>
+      {% endif %}
+
+      {% include comments.html %}
+    </div>
+  </div>
+</main>

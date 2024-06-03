@@ -27,6 +27,30 @@
   </li>
   {%- endif -%}
 
+  {%- if network[0] == "Bilibili" -%}
+  <li class="list-inline-item">
+    <a href="https://space.bilibili.com/{{ network[1] }}" title="Bilibili">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <!-- <i class="fas fa-circle fa-stack-2x"></i> -->
+        <i class="fab fa-inverse">Bilibili</i>
+      </span>
+      <span class="sr-only">Bilibili</span>
+   </a>
+  </li>
+  {%- endif -%}
+
+  {%- if network[0] == "OSF" -%}
+  <li class="list-inline-item">
+    <a href="https://osf.io/{{ network[1] }}" title="OSF">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <!-- <i class="fas fa-circle fa-stack-2x"></i> -->
+        <i class="fab fa-inverse">OSF</i>
+      </span>
+      <span class="sr-only">Center for Open Science</span>
+   </a>
+  </li>
+  {%- endif -%}
+
   {%- if network[0] == "calendly" -%}
   <li class="list-inline-item">
     <a href="https://calendly.com/{{ network[1] }}" title="Schedule a meeting with me">

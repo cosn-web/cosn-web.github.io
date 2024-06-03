@@ -6,3 +6,5 @@ gemspec
 
 gem 'guard'
 gem 'guard-jekyll-plus'
+gem 'tzinfo'
+gem 'tzinfo-data'
