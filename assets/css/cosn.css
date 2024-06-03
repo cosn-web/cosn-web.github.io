@@ -23,22 +23,22 @@
 }
 
 h1:not(.page-heading h1) {
-    color: #2364aa;
+    color: #04395e;
 }
 
 h2:not(.page-heading h2) {
-    color: #73bfb8;
+    color: #70a288;
 }
 
-/*h3:not(.page-heading h3) {
-    color: #fec601;
+h3:not(.page-heading h3) {
+    color: #dab785;
 }
 
 h4:not(.page-heading h4) {
-    color: #ea7317;
+    color: #d5896f;
 }
 
-h5:not(.page-heading h5) {
+/*h5:not(.page-heading h5) {
     color: #f7c59f;
 }
 */

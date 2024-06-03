@@ -8,6 +8,8 @@ permalink: /
 # ext-js: "https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
 ---
 
+# Projects
+
 Chinese Open Science Network (COSN) is a grass-root network for promoting open science practices and awareness of reproducibility in the Chinese-speaking community.
 
 COSN is one of the Community of Open Scholarship Grassroots Networks that aimed at promoting open science and changing the research culture globally.
@@ -17,7 +19,7 @@ COSN is run by [Early Career Researchers (ECRs)](/pages/about) and for ECRs, esp
 ## Projects
 
 Lorem ipsum dolor sit amet, at summo libris sadipscing nam, usu soleat legere atomorum ei. No nullam recteque has, ex etiam nominavi theophrastus per, pro iriure noluisse ex. Te amet inimicus intellegam vel, cetero euismod eos id. Saepe feugait nec eu. Dolorem accusam eu eos, sed quaestio consequuntur et, no usu unum graeci. Cum ei rebum idque quidam.
-
+### Projects
 <div class="container">
     <div class="row">
       <div class="col-sm-3 col-xs-6" align="center">
