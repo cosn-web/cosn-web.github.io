@@ -1,3 +1,4 @@
+# bundle exec jekyll serve  --livereload
 ###########################################################
 ### Welcome to Beautiful Jekyll!
 ### This config file is meant for settings that affect your entire website. When you first
@@ -34,6 +35,7 @@ navbar-links:
     - General Resources: "pages/resources/general_resources"
     - Calendar: "pages/resources/calendar"
   Get involved: "pages/get_involved"
+
 
 ################
 # --- Logo --- #

@@ -2,6 +2,7 @@
 layout: page
 title: Chinese Open Science Network
 subtitle: 可重复性与开放科学中文圈
+permalink: /
 # cover-img: ../../assets/img/cosnlogo.jpeg
 # ext-css: "https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
 # ext-js: "https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
