@@ -31,12 +31,16 @@ h2:not(.page-heading h2) {
 }
 
 h3:not(.page-heading h3) {
+    color: #d5896f;
+}
+
+/*h3:not(.page-heading h3) {
     color: #dab785;
 }
 
 h4:not(.page-heading h4) {
     color: #d5896f;
-}
+}*/
 
 /*h5:not(.page-heading h5) {
     color: #f7c59f;
