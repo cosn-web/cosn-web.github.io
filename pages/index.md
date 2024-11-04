@@ -24,7 +24,7 @@ Lorem ipsum dolor sit amet, at summo libris sadipscing nam, usu soleat legere at
     <div class="row">
       <div class="col-sm-3 col-xs-6" align="center">
         <br>
-        <a href="projects/OpenTransfer">
+        <a href="/pages/projects/open_transfer">
           <div class="circle-logo">Open<br>Transfer</div>
           <!-- <img src="/assets/img/logo.png" alt="" width="100" height="100"> -->
         </a>
@@ -32,19 +32,19 @@ Lorem ipsum dolor sit amet, at summo libris sadipscing nam, usu soleat legere at
       <div class="col-sm-9">
         <h4>OpenTransfer</h4>
         <i>Lorem ipsum dolor sit amet, at summo libris sadipscing nam, usu soleat legere atomorum ei. No</i><br>
-        <a href="projects/OpenTransfer"><b>Read More</b></a>
+        <a href="/pages/projects/open_transfer"><b>Read More</b></a>
       </div>
     </div>
     <hr>
     <div class="row">
       <div class="col-sm-3 col-xs-6" align="center">
         <br>
-        <a href="projects/OpenMinds"><div class="circle-logo">Open<br>Minds</div></a>
+        <a href="/pages/projects/open_minds"><div class="circle-logo">Open<br>Minds</div></a>
       </div>
       <div class="col-sm-9">
         <h4>OpenMinds</h4>
         <i>Lorem ipsum dolor sit amet, at summo libris sadipscing nam, usu soleat legere atomorum ei. No</i><br>
-        <a href="projects/OpenMinds"><b>Read More</b></a>
+        <a href="/pages/projects/open_minds"><b>Read More</b></a>
       </div>
     </div>
     <hr>

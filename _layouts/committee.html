@@ -1,0 +1,73 @@
+---
+layout: base
+---
+
+{% include header.html type="page" %}
+
+<main class="{% if page.full-width %} container-fluid {% else %} container-md {% endif %}">
+  <div class="row">
+    <div class="{% if page.full-width %} col {% else %} col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 {% endif %}">
+
+      <div class="container">
+        <div class="row justify-content-around">
+          <div class="col-lg-4" align="center">
+            <br />
+            <!-- <img src="{{ page.logo }}" width="150" /> -->
+          </div>
+          <div class="float-right" >
+            <h2>Overview</h2>
+            <ul>
+              <li><b>Leaders:</b> {{ page.leaders }}</li>
+              <li><b>Members:</b> {{ page.members }}</li>
+              <li><i>If you want to join us, please sign up <a href="{{ page.contact }}">here</a>.</i></li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+      {{ content }}
+
+      {% if page.tags.size > 0 %}
+        <div class="blog-tags">
+          <span>Tags:</span>
+          {% for tag in page.tags %}
+            <a href="{{ '/tags' | relative_url }}#{{- tag -}}">{{- tag -}}</a>
+          {% endfor %}
+        </div>
+      {% endif %}
+
+      {% if page.after-content %}
+        <div class="after-content">
+          {% for file in page.after-content %}
+            {% include {{ file }} %}
+          {% endfor %}
+        </div>
+      {% endif %}
+
+      {% if page.social-share %}
+        {% include social-share.html %}
+      {% endif %}
+
+      <ul class="pagination blog-pager">
+        {% if page.previous.url %}
+        <li class="page-item previous">
+          <a class="page-link" href="{{ page.previous.url | relative_url }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title | strip_html | xml_escape}}">
+            <i class="fas fa-arrow-left" alt="Previous Post"></i>
+            <span class="d-none d-sm-inline-block">Previous Post</span>
+          </a>
+        </li>
+        {% endif %}
+        {% if page.next.url %}
+        <li class="page-item next">
+          <a class="page-link" href="{{ page.next.url | relative_url }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title | strip_html | xml_escape}}">
+            <span class="d-none d-sm-inline-block">Next Post</span>
+            <i class="fas fa-arrow-right" alt="Next Post"></i>
+          </a>
+        </li>
+        {% endif %}
+      </ul>
+      {% include comments.html %}
+    </div>
+  </div>
+</main>
