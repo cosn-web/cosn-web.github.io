@@ -15,12 +15,13 @@ layout: base
             <!-- <img src="{{ page.logo }}" width="150" /> -->
           </div>
           <div class="float-right" >
-            <h2>Overview</h2>
+            <h3>Leaders</h3>
             <ul>
-              <li><b>Leaders:</b> {{ page.leaders }}</li>
-              <li><b>Members:</b> {{ page.members }}</li>
-              <li><i>If you want to join us, please sign up <a href="{{ page.contact }}">here</a>.</i></li>
+              {% for leader in page.leaders %}
+                <li><strong>{{ leader.name }}</strong>, <em>{{ leader.affiliation }}</em> <a href="mailto:{{ contact }}">[email]</a></li>
+              {% endfor %}
             </ul>
+            <i>If you want to join us, please sign up <a href="{{ page.contact }}">here</a>.</i>
           </div>
         </div>
 

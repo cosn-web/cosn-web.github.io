@@ -23,15 +23,15 @@
 }
 
 h1:not(.page-heading h1) {
-    color: #04395e;
+    color: #3851A3;
 }
 
 h2:not(.page-heading h2) {
-    color: #70a288;
+    color: #a33851;
 }
 
 h3:not(.page-heading h3) {
-    color: #d5896f;
+    color: #5538a3;
 }
 
 /*h3:not(.page-heading h3) {
